@@ -6,7 +6,10 @@ toc: true
 toc_sticky: true
 comments: true
 categories:
-    - tech
+  - info
+tags:
+  - web
+  - browser
 last_modified_at: 2020-12-30
 ---
 
@@ -23,12 +26,14 @@ URL 구조
     <img src="/assets/images/post/url-exp.png" alt="URL 설명">
 </a>
 
+<br>
 ### 2. DNS 서버에 붙고, 도메의의 IP주소를 물어본다.
 Root server - TLD server - Name server
 <a href="/assets/images/post/dns-info.png">
     <img src="/assets/images/post/dns-info.png" alt="dns server 정보">
 </a>
 
+<br>
 ### 3. ARP를 통해 IP주소를 MAC주소로 변환
 실질적인 통신을 하기 위해서는 **ARP**(Address Resolution Protocol)프로토콜을 이용하여 IP주소를 MAC주소로 변환
 
@@ -36,6 +41,7 @@ IP주소 : 논리적 주소 / 32bit<br>
 MAC주소 : 물리적 주소 / 48bit 
 {: .notice--info}
 
+<br>
 ### 4. 대상 서버와 TCP 소켓 연결
 3-way Handshaking<br>
 연결하여 데이터를 전송하기 위해서 다음 3가지 과정을 거친다.
@@ -54,21 +60,20 @@ MAC주소 : 물리적 주소 / 48bit
 4 - 클라이언트는 확인했다는 메시지를 보냄
 {: .notice--info}
 
-
+<br>
 ### 5. HTTP(HTTPS) 프로토콜로 요청, 응답
 Request, Response ...
 
+<br>
 ### 6. 브라우저에서 응답을 해석
 HTML, CSS, JavaScript ...
 
-<a href="https://deveric.tistory.com/97" target="_blank">https://deveric.tistory.com/97</a>
-
-
+**그림으로 보자면..**
 <a href="/assets/images/post/url-process.jpg">
     <img src="/assets/images/post/url-process.jpg" alt="URL 과정">
 </a>
 
-
+<br>
 ### 도메인은 어떻게 연결하나요?
 
 ① 도메인을 사이트에서 구매한다.<br>
