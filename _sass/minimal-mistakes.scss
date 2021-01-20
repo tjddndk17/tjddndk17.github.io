@@ -38,3 +38,19 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+
+
+// tjddndk17 custom
+ul {
+  padding-inline-start: 30px;
+}
+
+.page__content p {
+  margin: 0 0 1em;
+}
+
+p>code, a>code, li>code, figcaption>code, td>code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+}
