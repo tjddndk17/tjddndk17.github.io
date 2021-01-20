@@ -5,13 +5,13 @@ last_modified_at: 2021-01-12
 toc: true
 toc_sticky: true
 categories:
-- info 
+  - info 
 tags:
-- web
-- security
+  - web
+  - security
 ---
 
-**OWASP(The Open Web Application Security Project - 국제 웹 보안 표준 기구)**
+**OWASP(The Open Web Application Security Project - 국제 웹 보안 표준 기구)**<br>
 에서 위험도가 높거나 발생 빈도가 높은 취약점 10가지 순위를 발표함.
 
 ### 1. A1
