@@ -12,9 +12,13 @@ tags:
 ---
 
 
+published: false <= 추가하면 페이지 안보임
+
+
 - config 설정
 /_config.yml 수정
 
 - navigation 설정
 /_data/navigation.yml 수정
+
 

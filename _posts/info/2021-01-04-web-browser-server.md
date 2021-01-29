@@ -21,7 +21,7 @@ last_modified_at: 2020-12-30
 지구 전역의 모든 데이터를 전달하는 심해 케이블을 통해 세계가 연결되는 방법이다.
 IP 주소를 이용하는 것이지 도메인네임을 이용하지 않는다.
 
-URL 구조
+URL 구조<br>
 <a href="/assets/images/post/url-exp.png">
     <img src="/assets/images/post/url-exp.png" alt="URL 설명">
 </a>
